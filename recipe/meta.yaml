@@ -1,5 +1,5 @@
 {% set name = "silence-tensorflow" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/silence_tensorflow-{{ version }}.tar.gz
-  sha256: dfbb627047d779b84983ce96bb98a59cd2dddb179e0c0fb2da87645e053d582c
+  sha256: b59e8ede929c46d244e1742c6e11ee91164d3e654ac6868061507031a788bf1c
 
 build:
   noarch: python
